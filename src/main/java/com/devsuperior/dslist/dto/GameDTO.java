@@ -7,17 +7,20 @@ import org.springframework.beans.BeanUtils;
 
 @Getter
 @Setter
-public class GameMinDTO {
+public class GameDTO {
     private Long id;
     private String title;
     private int year;
+    private String genre;
+    private String platforms;
+    private double score;
     private String imgUrl;
-    private String shortDescription;
+    private String longDescription;
 
-    public GameMinDTO() {
+    public GameDTO() {
     }
 
-    public GameMinDTO(Game entity) {
+    public GameDTO(Game entity) {
         BeanUtils.copyProperties(entity, this);
     }
 }
