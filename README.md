@@ -1,6 +1,12 @@
 # dslist
 API Spring Boot desenvolvida durante o intensivo Java Spring Boot.
 
+## Requisitos para rodar esse projeto
+
+ - Java 17
+ - maven instalado ou uma IDE que compile e rode o programa (intellij IDEA, eclipse, etc...)
+ - (opicional) postgres instalado na maquina ou em um container docker
+
 ## Tecnologias usadas
 
 **Linguagens, frameworks e bibliotecas**
