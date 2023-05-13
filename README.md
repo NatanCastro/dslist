@@ -37,6 +37,8 @@ Java, Spring boot, JPA
      *sourceIndex* é a posição inicial do jogo e o *destinationIndex* é a posição destino do jogo <br>
      os dois valores vão de *0 a N*, *N* sendo o tamanho da lista menos um, pois a posição começa no zero
 
+<br>
+
 **termos**
 
 *{id}*__*__ - referece ao id que o jogo tem no banco de dados <br>
@@ -44,6 +46,9 @@ Exemplo: /games/4
 
 *{listId}*__**__ - referece ao id que a lista de jogos tem no banco de dados <br>
 Exemplos: /lists/3 e lists/5/games
+
+
+---
 
 ## Modelo de domínio DSList
 ![Modelo de domínio DSList](https://raw.githubusercontent.com/devsuperior/java-spring-dslist/main/resources/dslist-model.png)
