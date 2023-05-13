@@ -4,6 +4,9 @@ target/
 !**/src/main/**/target/
 !**/src/test/**/target/
 
+# dados do banco de dados em desenvolvimento
+.data/
+
 ### STS ###
 .apt_generated
 .classpath
